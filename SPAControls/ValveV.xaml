@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="SPAControls.ValveV"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SPAControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="50">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="0">
+            <Grid x:Name="gridL4" Grid.Row="0" Background="LightGray">
+            </Grid>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="1">
+            <Grid x:Name="gridL3" Grid.Row="0" Background="LightGray">
+            </Grid>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="2">
+            <Grid x:Name="gridL2" Grid.Row="0" Background="LightGray">
+            </Grid>
+        </Border>
+        <Border BorderThickness="1" BorderBrush="Black" Grid.Row="3">
+            <Grid x:Name="gridL1" Grid.Row="0" Background="LightGray">
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

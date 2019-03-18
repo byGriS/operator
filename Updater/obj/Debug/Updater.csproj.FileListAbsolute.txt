@@ -1,0 +1,6 @@
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\bin\Debug\Updater.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\bin\Debug\Updater.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.csprojAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.exe
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.pdb

@@ -1,0 +1,13 @@
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\MessageInput.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows_MarkupCompile.cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\bin\Debug\ServiceWindows.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\bin\Debug\ServiceWindows.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\MessageInput.baml
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.g.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.Properties.Resources.resources
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.GenerateResource.Cache
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.dll
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.pdb
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\MessageView.g.cs
+C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\MessageView.baml
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.CoreCompileInputs.cache

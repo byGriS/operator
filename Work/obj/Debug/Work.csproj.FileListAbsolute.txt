@@ -1,0 +1,9 @@
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Work.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Work.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csprojAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csproj.CoreCompileInputs.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csproj.CopyComplete
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.pdb

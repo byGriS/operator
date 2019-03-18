@@ -1,0 +1,10 @@
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Data.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Data.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Service.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\System.Data.SQLite.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Service.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.pdb

@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="SPAControls.Pump"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SPAControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="800">
+  <Grid>
+    <Grid Grid.Column="0" Margin="5">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="0.8*"/>
+        <RowDefinition Height="0.8*"/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+        <ColumnDefinition/>
+      </Grid.ColumnDefinitions>
+      <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"
+                                       Source="/Resources/pump.png"
+                                       Margin="0"/>
+      <Label Content="{Binding Title}"
+                                   Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontSize="18"/>
+      <local:DigitalText2 x:Name="elemT1p" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Title="Температура переднего подшипника насоса" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemV1p" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3" Title="Вибрация переднего подшипника насоса" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemT2p" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4" Title="Температура заднего подшипника насоса" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemV2p" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="5" Title="Вибрация заднего подшипника насоса" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemT1m" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="6" Title="Температура переднего подшипника двигателя" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemV1m" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="7" Title="Вибрация переднего подшипника двигателя" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemT2m" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="8" Title="Температура заднего подшипника двигателя" SPAFontSize="15"/>
+      <local:DigitalText2 x:Name="elemV2m" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="9" Title="Вибрация заднего подшипника двигателя" SPAFontSize="15"/>
+      <local:Boolean x:Name="elemRun" TextValue1="Насос включен" IsRedGreen="True" TextValue2="Насос выключен" Value="0" Margin="5" Grid.Column="3" Grid.Row="2" SPAFontSize="14"/>
+      <local:Boolean x:Name="elemPower" TextValue1="Питание подано" IsRedGreen="True" TextValue2="Питание не подано" Value="0" Margin="5" Grid.Column="3" Grid.Row="3" SPAFontSize="14"/>
+      <local:Boolean x:Name="elemAllow" TextValue1="Пуск разрешен" IsRedGreen="True" TextValue2="Пуск запрещен" Value="1" Margin="5" Grid.Column="3" Grid.Row="4" SPAFontSize="14"/>
+      <Button Content="Запретить пуск" FontSize="15" Grid.Column="3" Grid.Row="5" Click="AllowPump_Click" Margin="30 4"/>
+      <local:Boolean x:Name="elemMaterial" TextValue1="Продукт имеется" IsRedGreen="True" TextValue2="Продукт отсутствует" Value="0" Margin="5" Grid.Column="3" Grid.Row="6" SPAFontSize="14"/>
+      <!--<local:Boolean x:Name="elemHeat" TextValue1="Перегрев двигателя" IsGrayRed="True" TextValue2="Т двиг. в норме" Value="0" Margin="5" Grid.Column="3" Grid.Row="7" SPAFontSize="14"/>-->
+      <Grid Grid.Column="3" Grid.Row="8" Grid.RowSpan="3">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="3*"/>
+          <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition/>
+          <RowDefinition/>
+          <RowDefinition/>
+          <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Уровень упл. жидкость" VerticalAlignment="Center" HorizontalAlignment="Center"  Grid.ColumnSpan="2" FontSize="13"/>
+        <TextBlock Text="Высокий" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" FontSize="13"/>
+        <TextBlock Text="Норма" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="2" FontSize="13"/>
+        <TextBlock Text="Низкий" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="3" FontSize="13"/>
+        <local:Level3 x:Name="pumpLevel" Grid.Column="1" Value="1" Margin="3" Grid.Row="1" Grid.RowSpan="3"/>
+      </Grid>
+
+    </Grid>
+  </Grid>
+</UserControl>
