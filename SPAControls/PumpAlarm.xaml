@@ -15,9 +15,10 @@
       <RowDefinition/>
       <RowDefinition/>
     </Grid.RowDefinitions>
-    <local:Boolean x:Name="elemFan" IsRedGreen="True" Title="Вентиляция" Value="-1" Margin="5" Grid.Column="0" Grid.Row="0"/>
-    <local:Boolean x:Name="elemAlarm" IsGrayRed="True" Title="Загазован. 20%" Value="0" Margin="5" Grid.Column="1" Grid.Row="0"/>
-    <local:Boolean x:Name="elemG20" IsGrayRed="True" Title="Пожарн. сигнализация" Value="0" Margin="5" Grid.Column="0" Grid.Row="1"/>
-    <local:Boolean x:Name="elemG50" IsGrayRed="True" Title="Загазован. 50%" Value="0" Margin="5" Grid.Column="1" Grid.Row="1"/>
+    <local:Boolean x:Name="elemFan" IsGrayBlue="True"  Title="Вентиляция" Value="0" Margin="5" Grid.Column="0" Grid.Row="0" SPAFontSize="20"/>
+    <local:Boolean x:Name="elemG20" IsGrayRed="True" Title="Загазованность" Value="0" Margin="5" Grid.Column="1" Grid.Row="0" SPAFontSize="20"/>
+    <local:Boolean x:Name="elemAlarm" IsGrayRed="True" Title="Пожарн. сигнализация" Value="0" Margin="5" Grid.Column="0" Grid.Row="1" SPAFontSize="20"/>
+    <local:Boolean x:Name="elemG50" IsGrayRed="True" Title="Неисправность" Value="0" Margin="5" Grid.Column="1" Grid.Row="1" SPAFontSize="20"/>
   </Grid>
 </UserControl>
+  

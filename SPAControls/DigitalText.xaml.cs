@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Windows.Controls;
 
 namespace SPAControls {
@@ -20,7 +21,10 @@ namespace SPAControls {
     public float Value {
       get { return value; }
       set {
-        this.value = value;
+        if (value < 0)
+          this.value = 0;
+        else
+          this.value = (float)Math.Round(value, 1);
         OnPropertyChanged("Value");
       }
     }

@@ -38,8 +38,8 @@
     <TextBlock Text="Авария" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed"/>
     <local:ValveV x:Name="elemVB" Grid.Column="3" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="2" Visibility="Collapsed"/>
 
-    <local:Boolean x:Name="elemG20" Title="Загазованность 20%" IsGrayRed="True" Value="0" Grid.Column="5" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="8"/>
-    <local:Boolean x:Name="elemG50" Title="Загазованность 50%" IsGrayRed="True" Value="0" Grid.Column="5" Grid.ColumnSpan="2"  Grid.Row="2" Grid.RowSpan="2" Margin="8"/>
+        <local:Boolean x:Name="elemG20" Title="Загазованность" IsGrayRed="True" Value="0" Grid.Column="5" Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="8" SPAFontSize="20"/>
+        <local:Boolean x:Name="elemG50" Title="Неисправность" IsGrayRed="True" Value="0" Grid.Column="5" Grid.ColumnSpan="2"  Grid.Row="2" Grid.RowSpan="2" Margin="8" SPAFontSize="20"/>
 
   </Grid>
 </UserControl>

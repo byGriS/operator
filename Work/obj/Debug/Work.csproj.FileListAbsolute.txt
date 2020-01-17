@@ -2,8 +2,45 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Work
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Work.pdb
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Service.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\Service.pdb
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csprojAssemblyReference.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csproj.CoreCompileInputs.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csproj.CopyComplete
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\ServiceWindows.dll
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\bin\Debug\ServiceWindows.pdb
+C:\Program Files\Operator\Operator\Work\bin\Debug\Work.dll
+C:\Program Files\Operator\Operator\Work\bin\Debug\Work.pdb
+C:\Program Files\Operator\Operator\Work\bin\Debug\Service.dll
+C:\Program Files\Operator\Operator\Work\bin\Debug\ServiceWindows.dll
+C:\Program Files\Operator\Operator\Work\bin\Debug\ServiceWindows.pdb
+C:\Program Files\Operator\Operator\Work\bin\Debug\Service.pdb
+C:\Program Files\Operator\Operator\Work\obj\Debug\Work.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\Work\obj\Debug\Work.dll
+C:\Program Files\Operator\Operator\Work\obj\Debug\Work.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Work\obj\Debug\Work.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\Work\bin\Debug\Work.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Work\bin\Debug\Work.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Work\bin\Debug\Service.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Work\bin\Debug\ServiceWindows.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Work\bin\Debug\ServiceWindows.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Work\bin\Debug\Service.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Work\obj\Debug\Work.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\Work\obj\Debug\Work.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Work\obj\Debug\Work.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Work\bin\Debug\Work.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Work\bin\Debug\Work.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Work\bin\Debug\Service.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Work\bin\Debug\ServiceWindows.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Work\bin\Debug\ServiceWindows.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Work\bin\Debug\Service.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Work\obj\Debug\Work.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\Work\obj\Debug\Work.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Work\obj\Debug\Work.pdb
+c:\Users\GriS\Downloads\Operator\Work\bin\Debug\Work.dll
+c:\Users\GriS\Downloads\Operator\Work\bin\Debug\Work.pdb
+c:\Users\GriS\Downloads\Operator\Work\bin\Debug\Service.dll
+c:\Users\GriS\Downloads\Operator\Work\bin\Debug\ServiceWindows.dll
+c:\Users\GriS\Downloads\Operator\Work\bin\Debug\ServiceWindows.pdb
+c:\Users\GriS\Downloads\Operator\Work\bin\Debug\Service.pdb
+c:\Users\GriS\Downloads\Operator\Work\obj\Debug\Work.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\Work\obj\Debug\Work.csproj.CopyComplete
+c:\Users\GriS\Downloads\Operator\Work\obj\Debug\Work.dll
+c:\Users\GriS\Downloads\Operator\Work\obj\Debug\Work.pdb

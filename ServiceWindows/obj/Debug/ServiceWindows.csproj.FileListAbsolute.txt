@@ -10,4 +10,55 @@ C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.pdb
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\MessageView.g.cs
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\ServiceWindows\obj\Debug\MessageView.baml
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.CoreCompileInputs.cache
+C:\Program Files\Operator\Operator\ServiceWindows\bin\Debug\ServiceWindows.dll
+C:\Program Files\Operator\Operator\ServiceWindows\bin\Debug\ServiceWindows.pdb
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\MessageInput.baml
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\MessageView.baml
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\MessageInput.g.cs
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\MessageView.g.cs
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows_MarkupCompile.cache
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows.g.resources
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows.Properties.Resources.resources
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.GenerateResource.Cache
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows.dll
+C:\Program Files\Operator\Operator\ServiceWindows\obj\Debug\ServiceWindows.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\bin\Debug\ServiceWindows.dll
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\bin\Debug\ServiceWindows.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\MessageInput.baml
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\MessageView.baml
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\MessageInput.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\MessageView.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows_MarkupCompile.cache
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows.g.resources
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows.Properties.Resources.resources
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.GenerateResource.Cache
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows.dll
+c:\Cloud\Работа\2019\Метролог\Operator\ServiceWindows\obj\Debug\ServiceWindows.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\bin\Debug\ServiceWindows.dll
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\bin\Debug\ServiceWindows.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\MessageInput.baml
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\MessageView.baml
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\MessageInput.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\MessageView.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows_MarkupCompile.cache
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows.g.resources
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows.Properties.Resources.resources
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.GenerateResource.Cache
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows.dll
+C:\Users\БАЛАШОВ\Documents\Operator\ServiceWindows\obj\Debug\ServiceWindows.pdb
+c:\Users\GriS\Downloads\Operator\ServiceWindows\bin\Debug\ServiceWindows.dll
+c:\Users\GriS\Downloads\Operator\ServiceWindows\bin\Debug\ServiceWindows.pdb
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\MessageInput.baml
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\MessageView.baml
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\MessageInput.g.cs
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\MessageView.g.cs
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows_MarkupCompile.cache
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows.g.resources
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows.Properties.Resources.resources
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows.csproj.GenerateResource.cache
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows.dll
+c:\Users\GriS\Downloads\Operator\ServiceWindows\obj\Debug\ServiceWindows.pdb

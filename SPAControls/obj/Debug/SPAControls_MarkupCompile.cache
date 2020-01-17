@@ -4,17 +4,17 @@
 library
 C#
 .cs
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\
+C:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\
 SPAControls
 none
 false
 DEBUG;TRACE
 
-181236084543
+23747158016
 
-20-648462307
-14-1970511869
-Boolean.xaml;Digital.xaml;DigitalText.xaml;DigitalText2.xaml;DigitalTitleBoolean.xaml;FourState.xaml;Level3.xaml;LevelV.xaml;Pump.xaml;PumpAlarm.xaml;PumpMini.xaml;PumpPower.xaml;Tanks.xaml;TanksAlarm.xaml;TanksAlarmMini.xaml;TanksMini.xaml;Valve.xaml;ValveV.xaml;
+25-2100380160
+14618858280
+Boolean.xaml;Digital.xaml;DigitalText.xaml;DigitalText2.xaml;DigitalTitleBoolean.xaml;FourState.xaml;GasField.xaml;GasLamp.xaml;Level3.xaml;LevelV.xaml;PistonPump.xaml;Pump.xaml;PumpAlarm.xaml;PumpMini.xaml;PumpPower.xaml;Tanks.xaml;TanksAlarm.xaml;TanksAlarmMini.xaml;TanksMini.xaml;Valve.xaml;ValveEl.xaml;ValvesList.xaml;ValveV.xaml;
 
 False
 

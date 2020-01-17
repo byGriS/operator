@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="SPAControls.GasField"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SPAControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="600">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/resources/gas.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <local:GasLamp Grid.Column="0" Grid.Row="0" x:Name="Q6" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="0" Grid.Row="1" x:Name="Q5" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="0" Grid.Row="2" x:Name="Q4" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="0" Grid.Row="3" x:Name="Q3" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="0" Grid.Row="4" x:Name="Q2" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="0" Grid.Row="5" x:Name="Q1" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="1" Grid.Row="0" x:Name="Q7" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="2" Grid.Row="0" x:Name="Q8" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="3" Grid.Row="0" x:Name="Q9" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="4" Grid.Row="0" x:Name="Q10" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="5" Grid.Row="0" x:Name="Q11" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="6" Grid.Row="0" x:Name="Q12" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="0" x:Name="Q13" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="1" x:Name="Q14" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="2" x:Name="Q15" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="3" x:Name="Q16" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="4" x:Name="Q17" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="1" Grid.Row="5" x:Name="Q24" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="2" Grid.Row="5" x:Name="Q23" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="3" Grid.Row="5" x:Name="Q22" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="4" Grid.Row="5" x:Name="Q21" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="5" Grid.Row="5" x:Name="Q20" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="6" Grid.Row="5" x:Name="Q19" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="5" x:Name="Q18" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="3" Grid.Row="6" x:Name="Q27" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="3" Grid.Row="7" x:Name="Q26" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="3" Grid.Row="8" x:Name="Q25" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="7" x:Name="Q29" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="7" Grid.Row="8" x:Name="Q28" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="8" Grid.Row="7" x:Name="Q30" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="9" Grid.Row="2" x:Name="Q33" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="10" Grid.Row="2" x:Name="Q34" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="9" Grid.Row="3" x:Name="Q32" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="10" Grid.Row="3" x:Name="Q31" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="12" Grid.Row="1" x:Name="Q38" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="12" Grid.Row="2" x:Name="Q37" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="12" Grid.Row="3" x:Name="Q36" Value="0" Margin="1"/>
+        <local:GasLamp Grid.Column="12" Grid.Row="4" x:Name="Q35" Value="0" Margin="1"/>
+
+    </Grid>
+</UserControl>

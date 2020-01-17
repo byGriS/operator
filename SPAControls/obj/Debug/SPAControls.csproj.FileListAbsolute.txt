@@ -21,8 +21,6 @@ C:\Users\GriS\documents\visual studio 2015\Projects\Operator\SPAControls\obj\Deb
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\SPAControls\obj\Debug\DigitalText2.baml
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\SPAControls\obj\Debug\Level3.g.cs
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\SPAControls\obj\Debug\Level3.baml
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\SPAControls.csprojAssemblyReference.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\SPAControls.csproj.CoreCompileInputs.cache
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.g.cs
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.baml
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
@@ -46,6 +44,232 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Deb
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\Pump.baml
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\bin\Debug\Service.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\bin\Debug\Service.pdb
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\SPAControls.csproj.CopyComplete
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\Boolean.baml
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\Boolean.g.cs
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\SPAControls\obj\Debug\SPAControls.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\SPAControls\bin\Debug\SPAControls.dll
+C:\Program Files\Operator\Operator\SPAControls\bin\Debug\SPAControls.pdb
+C:\Program Files\Operator\Operator\SPAControls\bin\Debug\Service.dll
+C:\Program Files\Operator\Operator\SPAControls\bin\Debug\Service.pdb
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Boolean.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Digital.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Boolean.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Digital.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\DigitalText.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\DigitalText2.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\FourState.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Level3.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\LevelV.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Pump.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\PumpAlarm.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\PumpMini.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\PumpPower.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Tanks.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\TanksAlarm.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\TanksAlarmMini.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\TanksMini.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Valve.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\ValveV.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.cache
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.lref
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\DigitalText.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\DigitalText2.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\FourState.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Level3.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\LevelV.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Pump.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\PumpAlarm.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\PumpMini.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\PumpPower.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Tanks.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\TanksAlarm.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\TanksAlarmMini.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\TanksMini.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\Valve.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\ValveV.baml
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls.g.resources
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls.Properties.Resources.resources
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls.csproj.GenerateResource.Cache
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls.dll
+C:\Program Files\Operator\Operator\SPAControls\obj\Debug\SPAControls.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\bin\Debug\SPAControls.dll
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\bin\Debug\SPAControls.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\bin\Debug\Service.dll
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\bin\Debug\Service.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Boolean.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Digital.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Boolean.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Digital.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\DigitalText.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\DigitalText2.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\FourState.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Level3.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\LevelV.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Pump.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PumpAlarm.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PumpMini.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PumpPower.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Tanks.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\TanksAlarm.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\TanksAlarmMini.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\TanksMini.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Valve.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\ValveV.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.cache
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.lref
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\DigitalText.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\DigitalText2.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\FourState.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Level3.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\LevelV.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Pump.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PumpAlarm.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PumpMini.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PumpPower.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Tanks.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\TanksAlarm.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\TanksAlarmMini.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\TanksMini.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\Valve.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\ValveV.baml
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls.g.resources
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls.Properties.Resources.resources
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls.csproj.GenerateResource.Cache
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls.dll
+c:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\SPAControls.pdb
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\GasLamp.g.cs
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\GasLamp.baml
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\GasField.g.cs
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\GasField.baml
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PistonPump.g.cs
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\PistonPump.baml
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\ValvesList.g.cs
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\ValvesList.baml
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\ValveEl.g.cs
+C:\Cloud\Работа\2019\Метролог\Operator\SPAControls\obj\Debug\ValveEl.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\bin\Debug\SPAControls.dll
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\bin\Debug\SPAControls.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\bin\Debug\Service.dll
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\bin\Debug\Service.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Boolean.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Digital.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Boolean.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Digital.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\DigitalText.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\DigitalText2.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\FourState.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\GasField.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\GasLamp.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Level3.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\LevelV.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PistonPump.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Pump.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PumpAlarm.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PumpMini.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PumpPower.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Tanks.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\TanksAlarm.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\TanksAlarmMini.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\TanksMini.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Valve.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\ValveEl.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\ValvesList.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\ValveV.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.cache
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.lref
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\DigitalText.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\DigitalText2.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\FourState.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\GasField.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\GasLamp.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Level3.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\LevelV.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PistonPump.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Pump.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PumpAlarm.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PumpMini.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\PumpPower.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Tanks.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\TanksAlarm.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\TanksAlarmMini.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\TanksMini.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\Valve.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\ValveEl.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\ValvesList.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\ValveV.baml
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls.g.resources
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls.Properties.Resources.resources
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls.csproj.GenerateResource.Cache
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls.dll
+C:\Users\БАЛАШОВ\Documents\Operator\SPAControls\obj\Debug\SPAControls.pdb
+c:\Users\GriS\Downloads\Operator\SPAControls\bin\Debug\SPAControls.dll
+c:\Users\GriS\Downloads\Operator\SPAControls\bin\Debug\SPAControls.pdb
+c:\Users\GriS\Downloads\Operator\SPAControls\bin\Debug\Service.dll
+c:\Users\GriS\Downloads\Operator\SPAControls\bin\Debug\Service.pdb
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Boolean.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Digital.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Boolean.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Digital.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\DigitalText.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\DigitalText2.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\FourState.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\GasField.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\GasLamp.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Level3.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\LevelV.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PistonPump.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Pump.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PumpAlarm.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PumpMini.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PumpPower.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Tanks.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\TanksAlarm.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\TanksAlarmMini.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\TanksMini.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Valve.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\ValveEl.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\ValvesList.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\ValveV.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.cache
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls_MarkupCompile.lref
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\DigitalText.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\DigitalText2.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\DigitalTitleBoolean.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\FourState.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\GasField.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\GasLamp.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Level3.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\LevelV.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PistonPump.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Pump.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PumpAlarm.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PumpMini.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\PumpPower.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Tanks.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\TanksAlarm.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\TanksAlarmMini.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\TanksMini.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\Valve.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\ValveEl.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\ValvesList.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\ValveV.baml
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.g.resources
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.Properties.Resources.resources
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.csproj.GenerateResource.Cache
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.dll
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.pdb
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\SPAControls\obj\Debug\SPAControls.csproj.CopyComplete

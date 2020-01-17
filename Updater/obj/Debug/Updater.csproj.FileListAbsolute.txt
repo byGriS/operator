@@ -4,3 +4,23 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\U
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.exe
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Updater\obj\Debug\Updater.pdb
+C:\Program Files\Operator\Operator\Updater\bin\Debug\Updater.exe
+C:\Program Files\Operator\Operator\Updater\bin\Debug\Updater.pdb
+C:\Program Files\Operator\Operator\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\Updater\obj\Debug\Updater.exe
+C:\Program Files\Operator\Operator\Updater\obj\Debug\Updater.pdb
+C:\Cloud\Работа\2019\Метролог\Operator\Updater\bin\Debug\Updater.exe
+C:\Cloud\Работа\2019\Метролог\Operator\Updater\bin\Debug\Updater.pdb
+C:\Cloud\Работа\2019\Метролог\Operator\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Cloud\Работа\2019\Метролог\Operator\Updater\obj\Debug\Updater.exe
+C:\Cloud\Работа\2019\Метролог\Operator\Updater\obj\Debug\Updater.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Updater\bin\Debug\Updater.exe
+C:\Users\БАЛАШОВ\Documents\Operator\Updater\bin\Debug\Updater.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Updater\obj\Debug\Updater.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\Updater\obj\Debug\Updater.exe
+C:\Users\БАЛАШОВ\Documents\Operator\Updater\obj\Debug\Updater.pdb
+c:\Users\GriS\Downloads\Operator\Updater\bin\Debug\Updater.exe
+c:\Users\GriS\Downloads\Operator\Updater\bin\Debug\Updater.pdb
+c:\Users\GriS\Downloads\Operator\Updater\obj\Debug\Updater.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\Updater\obj\Debug\Updater.exe
+c:\Users\GriS\Downloads\Operator\Updater\obj\Debug\Updater.pdb

@@ -29,26 +29,37 @@
                                    Grid.Column="1" Grid.Row="0"
                                    HorizontalAlignment="Center"
                                    VerticalAlignment="Center"
-                                   FontSize="18"/>
-    <Label Content="Насос" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1"/>
-    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="1" Title="T1" SPAFontSize="15" x:Name="elemT1p"/>
-    <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="1" Title="V1" SPAFontSize="15" x:Name="elemV1p"/>
-    <Label Content="Насос" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2"/>
-    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="2" Title="T2" SPAFontSize="15" x:Name="elemT2p"/>
-    <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="2" Title="V2" SPAFontSize="15" x:Name="elemV2p"/>
-    <Label Content="Двигатель" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="3"/>
-    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="3" Title="T1" SPAFontSize="15" x:Name="elemT1m"/>
-    <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="3" Title="V1" SPAFontSize="15" x:Name="elemV1m"/>
-    <Label Content="Двигатель" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="4"/>
-    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="4" Title="T2" SPAFontSize="15" x:Name="elemT2m"/>
-    <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="4" Title="V2" SPAFontSize="15" x:Name="elemV2m"/>
-    <local:Boolean Title="Вкл" IsRedGreen="True" Value="0" Margin="5" Grid.Column="0" Grid.Row="5" x:Name="elemRun"/>
-    <local:Boolean Title="Питание" IsRedGreen="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="5" x:Name="elemPower"/>
-    <local:Boolean Title="Разрешение" IsRedGreen="True" Value="0" Margin="5" Grid.Column="2" Grid.Row="5" x:Name="elemAllow"/>
-    <local:Boolean Title="Продукт" IsRedGreen="True" Value="0" Margin="5" Grid.Column="0" Grid.Row="6" x:Name="elemMaterial"/>
-    <!--<local:Boolean Title="Перегрев" IsGrayRed="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="6" x:Name="elemHeat"/>-->
-    <Label Content="L упл. жидкость" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="7"/>
-    <local:Boolean Title="Низкий" IsGrayRed="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="7" x:Name="elemLowL"/>
-    <local:Boolean Title="Высокий" IsGrayRed="True" Value="0" Margin="5" Grid.Column="2" Grid.Row="7" x:Name="elemHighL"/>
+                                   FontSize="22"/>
+        <Label Content="Насос" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="1" FontSize="20"/>
+    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="1" Title="T1" SPAFontSize="20" x:Name="elemT1p"/>
+    <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="1" Title="V1" SPAFontSize="20" x:Name="elemV1p"/>
+        <Label Content="Насос" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="2" FontSize="20"/>
+    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="2" Title="T2" SPAFontSize="20" x:Name="elemT2p"/>
+    <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="2" Title="V2" SPAFontSize="20" x:Name="elemV2p"/>
+        <Label Content="Двигатель" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="3" FontSize="20"/>
+    <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="3" Title="T1" SPAFontSize="20" x:Name="elemT1m" NotMinuse="True"/>
+        <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="3" Title="V1" SPAFontSize="20" x:Name="elemV1m" NotMinuse="True"/>
+        <Label Content="Двигатель" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="4" FontSize="20"/>
+        <local:DigitalTitleBoolean Grid.Column="1" Grid.Row="4" Title="T2" SPAFontSize="20" x:Name="elemT2m" NotMinuse="True"/>
+        <local:DigitalTitleBoolean Grid.Column="2" Grid.Row="4" Title="V2" SPAFontSize="20" x:Name="elemV2m" NotMinuse="True"/>
+        <Grid Grid.Row="5" Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <local:Boolean Title="Вкл" IsRedGreen="True" Value="0" Margin="5" Grid.Column="0" Grid.Row="5" x:Name="elemRun" SPAFontSize="17"/>
+            <local:Boolean Title="Питание" IsRedGreen="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="5" x:Name="elemPower" SPAFontSize="17"/>
+            <local:Boolean Title="Разрешение" IsRedGreen="True" Value="0" Margin="5" Grid.Column="2" Grid.Row="5" x:Name="elemAllow" SPAFontSize="17"/>
+            <local:Boolean Title="Продукт" IsGreenRed="True" Value="0" Margin="5" Grid.Column="3" Grid.Row="6" x:Name="elemMaterial" SPAFontSize="17"/>
+        </Grid>
+        <Label Content="L упл. жидкость 1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="6" FontSize="20"/>
+        <local:Boolean Title="Низкий" IsGrayRed="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="6" x:Name="elemLowL1" SPAFontSize="20"/>
+        <local:Boolean Title="Высокий" IsGrayRed="True" Value="0" Margin="5" Grid.Column="2" Grid.Row="6" x:Name="elemHighL1" SPAFontSize="20"/>
+        <!--<local:Boolean Title="Перегрев" IsGrayRed="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="6" x:Name="elemHeat"/>-->
+        <Label Content="L упл. жидкость 2" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="0" Grid.Row="7" FontSize="20"/>
+        <local:Boolean Title="Низкий" IsGrayRed="True" Value="0" Margin="5" Grid.Column="1" Grid.Row="7" x:Name="elemLowL2" SPAFontSize="20"/>
+        <local:Boolean Title="Высокий" IsGrayRed="True" Value="0" Margin="5" Grid.Column="2" Grid.Row="7" x:Name="elemHighL2" SPAFontSize="20"/>
   </Grid>
 </UserControl>

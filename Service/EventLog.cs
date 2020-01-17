@@ -19,6 +19,8 @@ namespace Service {
           return new SolidColorBrush(Colors.LightYellow);
         case EventLogType.Ошибка:
           return new SolidColorBrush(Colors.LightBlue);
+        case EventLogType.ИзменениеСостояния:
+          return new SolidColorBrush(Colors.Gray);
         default:
           return new SolidColorBrush(Colors.White);
       }
@@ -28,6 +30,7 @@ namespace Service {
     Сообщение = 1,
     Внимание = 2,
     Ошибка = 3,
-    Авария = 4
+    Авария = 4,
+    ИзменениеСостояния = 5
   }
 }

@@ -31,7 +31,8 @@
       <Label Content="РВС2"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center"
+             FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -50,23 +51,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank1L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -80,9 +81,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank1P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank1F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+        <local:Digital x:Name="elemTank1P" Value="0.0" Max="50" Min="-1000"  Grid.Row="1" />
+        <local:Boolean x:Name="elemTank1F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -100,7 +101,7 @@
       <Label Content="РВС15"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -119,23 +120,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank2L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3"  Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -149,9 +150,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank2P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank2F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank2P" Value="0.0"  Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank2F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -166,11 +167,11 @@
         <ColumnDefinition/>
         <ColumnDefinition/>
       </Grid.ColumnDefinitions>
-      <Label Content="РВС16"
+            <Label Content="РВС16"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-      <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
+                               VerticalContentAlignment="Center" FontSize="20"/>
+            <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
       <Grid Grid.Column="1" Grid.Row="1" Grid.RowSpan="2">
@@ -188,23 +189,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank3L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -218,9 +219,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank3P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank3F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank3P" Value="0.0" Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank3F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -238,7 +239,7 @@
       <Label Content="РВС17"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -257,23 +258,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank4L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -287,9 +288,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank4P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank4F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank4P" Value="0.0" Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank4F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -307,7 +308,7 @@
       <Label Content="РВС42"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -326,23 +327,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank5L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -356,9 +357,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank5P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank5F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank5P" Value="0.0" Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank5F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -376,7 +377,7 @@
       <Label Content="РВС43"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -395,23 +396,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank6L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -425,9 +426,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank6P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank6F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank6P" Value="0.0" Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank6F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -445,7 +446,7 @@
       <Label Content="РВС44"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -464,23 +465,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                                    Grid.Row="4"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank7L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -494,9 +495,9 @@
         <Label Content="Давление"
                                    Grid.Row="0"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank7P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank7F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank7P" Value="0.0" Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank7F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
 
@@ -514,7 +515,7 @@
       <Label Content="РВС45"
                                Grid.Column="1" Grid.Row="0" 
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="20"/>
       <Image Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" 
                                        Source="/Resources/HDC.png"
                                        Margin="5"/>
@@ -533,23 +534,23 @@
         <Label Content="Уровень"
                                    Grid.ColumnSpan="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="95%"
                                    Grid.Row="1"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="90%"
                                    Grid.Row="2"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Норма"
                                    Grid.Row="3"
                                HorizontalContentAlignment="Center"
-                               VerticalContentAlignment="Center"/>
+                               VerticalContentAlignment="Center" FontSize="16"/>
         <Label Content="Низкий"
                Grid.Row="4"
                HorizontalContentAlignment="Center"
-               VerticalContentAlignment="Center"/>
+               VerticalContentAlignment="Center" FontSize="16"/>
         <local:LevelV x:Name="elemTank8L" Grid.Column="1" Grid.Row="1" Grid.RowSpan="4" Margin="3" Value="1"/>
       </Grid>
       <Grid Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Margin="3">
@@ -563,9 +564,9 @@
         <Label Content="Давление"
                Grid.Row="0"
                HorizontalContentAlignment="Center"
-               VerticalContentAlignment="Center"/>
-        <local:Digital x:Name="elemTank8P" Value="0.0" Grid.Row="1" />
-        <local:Boolean x:Name="elemTank8F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3"/>
+               VerticalContentAlignment="Center" FontSize="16"/>
+                <local:Digital x:Name="elemTank8P" Value="0.0" Max="50" Min="-1000" Grid.Row="1" />
+                <local:Boolean x:Name="elemTank8F" IsGrayRed="True" Title="Пожар" Value="0" Grid.Row="3" SPAFontSize="16"/>
       </Grid>
     </Grid>
   </Grid>

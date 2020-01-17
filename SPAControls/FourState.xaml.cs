@@ -32,7 +32,7 @@ namespace SPAControls {
         this.value = value;
         switch (value) {
           case 0: 
-          gridBG.Background = new SolidColorBrush(Colors.Red);
+          gridBG.Background = new SolidColorBrush(Colors.LightBlue);
             Title = "Низкий";
             break;
           case 1:
@@ -46,6 +46,10 @@ namespace SPAControls {
           case 3:
             gridBG.Background = new SolidColorBrush(Colors.Red);
             Title = "95%";
+            break;
+          case 4:
+            gridBG.Background = new SolidColorBrush(Colors.LightGray);
+            Title = "Отключен";
             break;
         }
       }

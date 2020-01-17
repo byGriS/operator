@@ -1,0 +1,74 @@
+﻿<Window x:Class="Operator.ConnectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Operator"
+        mc:Ignorable="d"
+                Title="Связь" Height="600" Width="250"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        WindowStyle="SingleBorderWindow"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="32"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel>
+                <Label Content="Насос3 ТРМ"/>
+                <Label Content="Насос3 МК32"/>
+                <Label Content="Насос3 МК48"/>
+                <Label Content="Насос4 ТРМ"/>
+                <Label Content="Насос4 МК64"/>
+                <Label Content="Насос4 МК80"/>
+                <Label Content="Насосная МЭ"/>
+                <Label Content="РВС МК96"/>
+                <Label Content="РВС МК128"/>
+                <Label Content="РВС МК144"/>
+                <Label Content="РВС МК160"/>
+                <Label Content="РВС МК176"/>
+                <Label Content="РВС Орион"/>
+                <Label Content="Поршневые насосы ТРМ"/>
+                <Label Content="Поршневые насосы МК"/>
+                <Label Content="Задвижки1"/>
+                <Label Content="Задвижки2"/>
+                <Label Content="УПЭС1"/>
+                <Label Content="УПЭС2"/>
+                <Label Content="УПЭС3"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Label x:Name="l1" Content="связь Ок"/>
+                <Label x:Name="l2" Content="связь Ок"/>
+                <Label x:Name="l3" Content="связь Ок"/>
+                <Label x:Name="l4" Content="связь Ок"/>
+                <Label x:Name="l5" Content="связь Ок"/>
+                <Label x:Name="l6" Content="связь Ок"/>
+                <Label x:Name="l7" Content="связь Ок"/>
+                <Label x:Name="l8" Content="связь Ок"/>
+                <Label x:Name="l9" Content="связь Ок"/>
+                <Label x:Name="l10" Content="связь Ок"/>
+                <Label x:Name="l11" Content="связь Ок"/>
+                <Label x:Name="l12" Content="связь Ок"/>
+                <Label x:Name="l13" Content="связь Ок"/>
+                <Label x:Name="l14" Content="связь Ок"/>
+                <Label x:Name="l15" Content="связь Ок"/>
+                <Label x:Name="l16" Content="связь Ок"/>
+                <Label x:Name="l17" Content="связь Ок"/>
+                <Label x:Name="l18" Content="связь Ок"/>
+                <Label x:Name="l19" Content="связь Ок"/>
+                <Label x:Name="l20" Content="связь Ок"/>
+            </StackPanel>
+        </Grid>
+        <StackPanel  Grid.Row="1" Background="Gray" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Button Content="Закрыть" Padding="3" Click="Cancel_Click" Margin="3" Width="75"/>
+            <Button Content="Обновить" Padding="3" Click="Refresh_Click" Margin="3" Width="75"/>
+        </StackPanel>
+    </Grid>
+</Window>

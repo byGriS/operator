@@ -4,4 +4,32 @@ C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Service\obj\Debug\S
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Service\obj\Debug\Service.csproj.GenerateResource.Cache
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Service\obj\Debug\Service.dll
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Service\obj\Debug\Service.pdb
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\Service\bin\Debug\Service.dll
+C:\Program Files\Operator\Operator\Service\bin\Debug\Service.pdb
+C:\Program Files\Operator\Operator\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\Service\obj\Debug\Service.Properties.Resources.resources
+C:\Program Files\Operator\Operator\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+C:\Program Files\Operator\Operator\Service\obj\Debug\Service.dll
+C:\Program Files\Operator\Operator\Service\obj\Debug\Service.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Service\bin\Debug\Service.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Service\bin\Debug\Service.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\Service\obj\Debug\Service.Properties.Resources.resources
+c:\Cloud\Работа\2019\Метролог\Operator\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+c:\Cloud\Работа\2019\Метролог\Operator\Service\obj\Debug\Service.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Service\obj\Debug\Service.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Service\bin\Debug\Service.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Service\bin\Debug\Service.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\Service\obj\Debug\Service.Properties.Resources.resources
+C:\Users\БАЛАШОВ\Documents\Operator\Service\obj\Debug\Service.csproj.GenerateResource.Cache
+C:\Users\БАЛАШОВ\Documents\Operator\Service\obj\Debug\Service.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Service\obj\Debug\Service.pdb
+c:\Users\GriS\Downloads\Operator\Service\bin\Debug\Service.dll
+c:\Users\GriS\Downloads\Operator\Service\bin\Debug\Service.pdb
+c:\Users\GriS\Downloads\Operator\Service\obj\Debug\Service.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\Service\obj\Debug\Service.Properties.Resources.resources
+c:\Users\GriS\Downloads\Operator\Service\obj\Debug\Service.csproj.GenerateResource.cache
+c:\Users\GriS\Downloads\Operator\Service\obj\Debug\Service.dll
+c:\Users\GriS\Downloads\Operator\Service\obj\Debug\Service.pdb

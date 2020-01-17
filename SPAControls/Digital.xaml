@@ -11,13 +11,13 @@
         <ColumnDefinition/>
         <ColumnDefinition Width="0.5*"/>
       </Grid.ColumnDefinitions>
-      <Viewbox>
         <Label x:Name="lValue" 
                Content="{Binding Value}" 
-               FontWeight="Bold"
+               FontSize='{Binding Path=SPAFontSize}'
                Foreground="#FF101010"
-               Padding="1"/>
-      </Viewbox>
+               Padding="2" 
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"/>
       <Viewbox Grid.Column="1">
         <Canvas Margin="5" x:Name="cShow" Height="100" Width="100">
           <Ellipse x:Name="ellipse" Fill="DarkGray" Stroke="Black" StrokeThickness="2"

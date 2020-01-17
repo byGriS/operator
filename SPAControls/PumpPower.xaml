@@ -21,33 +21,33 @@
     </Grid.ColumnDefinitions>
     <Label Content="Сеть" Grid.Column="0" Grid.Row="0"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
+                                   VerticalAlignment="Center" FontSize="20"/>
     <Label Content="A" Grid.Column="1" Grid.Row="0"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
+                                   VerticalAlignment="Center" FontSize="20"/>
     <Label Content="B" Grid.Column="2" Grid.Row="0"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
+                                   VerticalAlignment="Center" FontSize="20"/>
     <Label Content="C" Grid.Column="3" Grid.Row="0"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
+                                   VerticalAlignment="Center" FontSize="20"/>
     <Label Content="Напряжение" Grid.Row="1"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
-    <local:Digital x:Name="elemVA" Grid.Column="1" Grid.Row="1" Margin="1" Max="240" Min="180"/>
-    <local:Digital x:Name="elemCA" Grid.Column="2" Grid.Row="1" Margin="1" Max="120" Min="0"/>
-    <local:Digital x:Name="elemPA" Grid.Column="3" Grid.Row="1" Margin="1" Max="55" Min="40"/>
+                                   VerticalAlignment="Center" FontSize="18"/>
+    <local:Digital x:Name="elemVA" Grid.Column="1" Grid.Row="1" Margin="1" Max="260" Min="180" SPAFontSize="18"/>
+        <local:Digital x:Name="elemVB" Grid.Column="2" Grid.Row="1" Margin="1" Max="260" Min="180" SPAFontSize="18"/>
+    <local:Digital x:Name="elemVC" Grid.Column="3" Grid.Row="1" Margin="1" Max="260" Min="180" SPAFontSize="18"/>
     <Label Content="Ток" Grid.Row="2"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
-    <local:Digital x:Name="elemVB" Grid.Column="1" Grid.Row="2" Margin="1" Max="240" Min="180"/>
-    <local:Digital x:Name="elemCB" Grid.Column="2" Grid.Row="2" Margin="1" Max="120" Min="0"/>
-    <local:Digital x:Name="elemPB" Grid.Column="3" Grid.Row="2" Margin="1"  Max="55" Min="40"/>
+                                   VerticalAlignment="Center" FontSize="20"/>
+        <local:Digital x:Name="elemCA" Grid.Column="1" Grid.Row="2" Margin="1" Max="500" Min="0" SPAFontSize="18"/>
+    <local:Digital x:Name="elemCB" Grid.Column="2" Grid.Row="2" Margin="1" Max="500" Min="0" SPAFontSize="18"/>
+        <local:Digital x:Name="elemCC" Grid.Column="3" Grid.Row="2" Margin="1"  Max="500" Min="0" SPAFontSize="18"/>
     <Label Content="Частота" Grid.Row="3"
                                    HorizontalAlignment="Center"
-                                   VerticalAlignment="Center"/>
-    <local:Digital x:Name="elemVC" Grid.Column="1" Grid.Row="3" Margin="1" Max="240" Min="180"/>
-    <local:Digital x:Name="elemCC" Grid.Column="2" Grid.Row="3" Margin="1" Max="120" Min="0"/>
-    <local:Digital x:Name="elemPC" Grid.Column="3" Grid.Row="3" Margin="1" Max="55" Min="40"/>
+                                   VerticalAlignment="Center" FontSize="20"/>
+    <local:Digital x:Name="elemPA" Grid.Column="1" Grid.Row="3" Margin="1" Max="55" Min="40" SPAFontSize="18"/>
+        <local:Digital x:Name="elemPB" Grid.Column="2" Grid.Row="3" Margin="1" Max="55" Min="40" SPAFontSize="18"/>
+    <local:Digital x:Name="elemPC" Grid.Column="3" Grid.Row="3" Margin="1" Max="55" Min="40" SPAFontSize="18"/>
   </Grid>
 </UserControl>

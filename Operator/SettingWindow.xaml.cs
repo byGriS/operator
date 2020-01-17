@@ -48,8 +48,10 @@ namespace Operator {
 
     private void Ok_Click(object sender, RoutedEventArgs e) {
       if (cbCOMPort.SelectedItem != null)
-        mainWindow.SerialPort.PortName = cbCOMPort.SelectedItem.ToString();
-      Service.WorkFile.Do("data.dat", Service.WorkFileMode.WriteNew, mainWindow.AdminPass + "\n" + mainWindow.SerialPort.PortName);
+        try {
+          mainWindow.SerialPort.PortName = cbCOMPort.SelectedItem.ToString();
+        } catch { }
+      Service.WorkFile.Do("data.dat", Service.WorkFileMode.WriteNew, mainWindow.AdminPass + "\n" + cbCOMPort.SelectedItem.ToString());
       this.Close();
     }
 

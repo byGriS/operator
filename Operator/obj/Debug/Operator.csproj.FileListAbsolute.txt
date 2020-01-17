@@ -18,11 +18,7 @@ C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Operator\bin\Debug\
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Operator\bin\Debug\SPAControls.pdb
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Operator\bin\Debug\ServiceWindows.dll
 C:\Users\GriS\documents\visual studio 2015\Projects\Operator\Operator\bin\Debug\ServiceWindows.pdb
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\obj\Debug\Operator.csprojAssemblyReference.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\obj\Debug\Operator.csproj.CoreCompileInputs.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\obj\Debug\Operator.csproj.CopyComplete
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\Data.dll
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\System.Data.SQLite.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\Data.pdb
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\Work.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\Modbus.dll
@@ -31,3 +27,144 @@ C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\Work.pdb
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\obj\Debug\SettingWindow.g.cs
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\obj\Debug\SettingWindow.baml
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator.exe
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator.pdb
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Operator.exe
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Operator.pdb
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Data.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Service.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\ServiceWindows.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\SPAControls.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Work.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\System.Data.SQLite.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Modbus.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\log4net.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Unme.Common.dll
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Data.pdb
+C:\Program Files\Operator\Operator\Operator\bin\Debug\ServiceWindows.pdb
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Service.pdb
+C:\Program Files\Operator\Operator\Operator\bin\Debug\SPAControls.pdb
+C:\Program Files\Operator\Operator\Operator\bin\Debug\Work.pdb
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator.csprojResolveAssemblyReference.cache
+C:\Program Files\Operator\Operator\Operator\obj\Debug\ChangeUserWindow.baml
+C:\Program Files\Operator\Operator\Operator\obj\Debug\ChangeUserWindow.g.cs
+C:\Program Files\Operator\Operator\Operator\obj\Debug\MainWindow.g.cs
+C:\Program Files\Operator\Operator\Operator\obj\Debug\SettingWindow.g.cs
+C:\Program Files\Operator\Operator\Operator\obj\Debug\App.g.cs
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator_MarkupCompile.cache
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator_MarkupCompile.lref
+C:\Program Files\Operator\Operator\Operator\obj\Debug\MainWindow.baml
+C:\Program Files\Operator\Operator\Operator\obj\Debug\SettingWindow.baml
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator.g.resources
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator.Properties.Resources.resources
+C:\Program Files\Operator\Operator\Operator\obj\Debug\Operator.csproj.GenerateResource.Cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\obj\Debug\Operator.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Operator\bin\Debug\System.Data.SQLite.dll
+C:\Program Files\Operator\Operator\Operator\obj\Debug\ConnectionWindow.g.cs
+C:\Program Files\Operator\Operator\Operator\obj\Debug\ConnectionWindow.baml
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator.exe
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Operator.exe
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Operator.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Data.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Service.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\ServiceWindows.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\SPAControls.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Work.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\System.Data.SQLite.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Modbus.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\log4net.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Unme.Common.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Data.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\ServiceWindows.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Service.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\SPAControls.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\bin\Debug\Work.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\ChangeUserWindow.baml
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\ChangeUserWindow.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\ConnectionWindow.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\MainWindow.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\SettingWindow.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\App.g.cs
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator_MarkupCompile.cache
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator_MarkupCompile.lref
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\ConnectionWindow.baml
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\MainWindow.baml
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\SettingWindow.baml
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator.g.resources
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator.Properties.Resources.resources
+c:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\Operator.csproj.GenerateResource.Cache
+C:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\RreferenceWindow.g.cs
+C:\Cloud\Работа\2019\Метролог\Operator\Operator\obj\Debug\RreferenceWindow.baml
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator.exe
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Operator.exe
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Operator.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Data.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Service.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\ServiceWindows.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\SPAControls.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Work.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\System.Data.SQLite.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Modbus.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\log4net.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Unme.Common.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Data.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\ServiceWindows.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Service.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\SPAControls.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\bin\Debug\Work.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\ChangeUserWindow.baml
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\ChangeUserWindow.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\ConnectionWindow.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\MainWindow.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\RreferenceWindow.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\SettingWindow.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\App.g.cs
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator_MarkupCompile.cache
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator_MarkupCompile.lref
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\ConnectionWindow.baml
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\MainWindow.baml
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\RreferenceWindow.baml
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\SettingWindow.baml
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator.g.resources
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator.Properties.Resources.resources
+C:\Users\БАЛАШОВ\Documents\Operator\Operator\obj\Debug\Operator.csproj.GenerateResource.Cache
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.exe
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.pdb
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Operator.exe
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Operator.pdb
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Data.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Service.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\ServiceWindows.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\SPAControls.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Work.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\System.Data.SQLite.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Modbus.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\log4net.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Unme.Common.dll
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Data.pdb
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\ServiceWindows.pdb
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Service.pdb
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\SPAControls.pdb
+c:\Users\GriS\Downloads\Operator\Operator\bin\Debug\Work.pdb
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\ChangeUserWindow.baml
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\ChangeUserWindow.g.cs
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\ConnectionWindow.g.cs
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\MainWindow.g.cs
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\RreferenceWindow.g.cs
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\SettingWindow.g.cs
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\App.g.cs
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator_MarkupCompile.cache
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator_MarkupCompile.lref
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\ConnectionWindow.baml
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\MainWindow.baml
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\RreferenceWindow.baml
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\SettingWindow.baml
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.g.resources
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.Properties.Resources.resources
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.csproj.GenerateResource.Cache
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\Operator\obj\Debug\Operator.csproj.CopyComplete

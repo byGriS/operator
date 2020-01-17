@@ -1,10 +1,33 @@
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Data.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Data.pdb
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Service.dll
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\System.Data.SQLite.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\Service.pdb
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csprojAssemblyReference.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
-C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csproj.CopyComplete
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.dll
 C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.pdb
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\GriS\Documents\Visual Studio 2015\Projects\Operator\Data\bin\Debug\System.Data.SQLite.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Data\bin\Debug\Data.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Data\bin\Debug\Data.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Data\bin\Debug\Service.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Data\bin\Debug\System.Data.SQLite.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Data\bin\Debug\Service.pdb
+c:\Cloud\Работа\2019\Метролог\Operator\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+c:\Cloud\Работа\2019\Метролог\Operator\Data\obj\Debug\Data.dll
+c:\Cloud\Работа\2019\Метролог\Operator\Data\obj\Debug\Data.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Data\bin\Debug\Data.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Data\bin\Debug\Data.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Data\bin\Debug\Service.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Data\bin\Debug\System.Data.SQLite.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Data\bin\Debug\Service.pdb
+C:\Users\БАЛАШОВ\Documents\Operator\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\БАЛАШОВ\Documents\Operator\Data\obj\Debug\Data.dll
+C:\Users\БАЛАШОВ\Documents\Operator\Data\obj\Debug\Data.pdb
+c:\Users\GriS\Downloads\Operator\Data\bin\Debug\Data.dll
+c:\Users\GriS\Downloads\Operator\Data\bin\Debug\Data.pdb
+c:\Users\GriS\Downloads\Operator\Data\bin\Debug\Service.dll
+c:\Users\GriS\Downloads\Operator\Data\bin\Debug\System.Data.SQLite.dll
+c:\Users\GriS\Downloads\Operator\Data\bin\Debug\Service.pdb
+c:\Users\GriS\Downloads\Operator\Data\obj\Debug\Data.csprojAssemblyReference.cache
+c:\Users\GriS\Downloads\Operator\Data\obj\Debug\Data.csproj.CopyComplete
+c:\Users\GriS\Downloads\Operator\Data\obj\Debug\Data.dll
+c:\Users\GriS\Downloads\Operator\Data\obj\Debug\Data.pdb

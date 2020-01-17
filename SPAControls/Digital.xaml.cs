@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Windows.Controls;
 using System.Windows.Media;
 
@@ -23,9 +24,34 @@ namespace SPAControls {
     public float Value {
       get { return this.value; }
       set {
-        this.value = value;
+        if (value < 0)
+          this.value = 0;
+        else
+          this.value = (float)Math.Round(value, 1); 
         OnPropertyChanged("Value");
-        ellipse.Fill = ((value > Max) || (value < Min)) ? new SolidColorBrush(Colors.Red) : new SolidColorBrush(Colors.Green);
+        ellipse.Fill = ((this.value > Max) || (this.value < Min)) ? new SolidColorBrush(Colors.Red) : new SolidColorBrush(Colors.Green);
+        if (this.value > Max)
+          ErrorMessage = "Аварийное высокое значение";
+        else {
+          if (this.value < Min)
+            ErrorMessage = "Аварийное низкое значение";
+          else
+            ErrorMessage = "";
+        }
+      }
+    }
+
+    public delegate void ErrorTag(string errorMessage);
+    public event ErrorTag OnErrorTag;
+    private string errorMessage = "";
+    public string ErrorMessage {
+      get { return errorMessage; }
+      set {
+        if (errorMessage != value) {
+          errorMessage = value;
+          if (value != "")
+            OnErrorTag?.Invoke(value);
+        }
       }
     }
   }

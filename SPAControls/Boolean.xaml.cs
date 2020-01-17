@@ -26,8 +26,9 @@ namespace SPAControls {
     public string TextValue2 { get; set; }
     public int SPAFontSize { get; set; }
     public bool IsRedGreen { get; set; }
+    public bool IsGreenRed{ get; set; }
     public bool IsGrayRed { get; set; }
-
+    public bool IsGrayBlue { get; set; }
 
     private int value = 0;
 
@@ -41,8 +42,33 @@ namespace SPAControls {
         if (IsRedGreen) {
           ellipse.Fill = (value == 0) ? new SolidColorBrush(Colors.Red) : new SolidColorBrush(Colors.Green);
         }
+        if (IsGreenRed) {
+          ellipse.Fill = (value == 0) ? new SolidColorBrush(Colors.Green) : new SolidColorBrush(Colors.Red);
+        }
+        if (IsGrayBlue) {
+          ellipse.Fill = (value == 0) ? new SolidColorBrush(Colors.Blue) : new SolidColorBrush(Colors.Gray);
+        }
         if (IsGrayRed) {
-          ellipse.Fill = (value == 0) ? new SolidColorBrush(Colors.Gray) : new SolidColorBrush(Colors.Red);
+          ellipse.Fill = (value != 1019 && value != 1) ? new SolidColorBrush(Colors.Gray) : new SolidColorBrush(Colors.Red);
+          if (value == 1019 || value == 1) {
+            ErrorMessage = "Пожарная сигнализация";
+          } else {
+            ErrorMessage = "";
+          }
+        }
+      }
+    }
+
+    public delegate void ErrorTag(string errorMessage);
+    public event ErrorTag OnErrorTag;
+    private string errorMessage = "";
+    public string ErrorMessage {
+      get { return errorMessage; }
+      set {
+        if (errorMessage != value) {
+          errorMessage = value;
+          if (value != "")
+            OnErrorTag?.Invoke(value);
         }
       }
     }

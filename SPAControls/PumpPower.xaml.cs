@@ -1,10 +1,91 @@
 ﻿using Service;
+using System;
 using System.Windows.Controls;
 
 namespace SPAControls {
   public partial class PumpPower : UserControl {
     public PumpPower() {
       InitializeComponent();
+      elemVA.OnErrorTag += ElemVA_OnErrorTag;
+      elemVB.OnErrorTag += ElemVB_OnErrorTag;
+      elemVC.OnErrorTag += ElemVC_OnErrorTag;
+      elemCA.OnErrorTag += ElemCA_OnErrorTag;
+      elemCB.OnErrorTag += ElemCB_OnErrorTag;
+      elemCC.OnErrorTag += ElemCC_OnErrorTag;
+      elemPA.OnErrorTag += ElemPA_OnErrorTag;
+    }
+
+    public delegate void ErrorTag(EventLog log);
+    public event ErrorTag OnErrorTag;
+
+    private void ElemPA_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Частота сети",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
+    }
+
+    private void ElemCC_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Ток фазы C",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
+    }
+
+    private void ElemCB_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Ток фазы B",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
+    }
+
+    private void ElemCA_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Ток фазы A",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
+    }
+
+    private void ElemVC_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Напряжение фазы C",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
+    }
+
+    private void ElemVB_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Напряжение фазы B",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
+    }
+
+    private void ElemVA_OnErrorTag(string errorMessage) {
+      OnErrorTag?.Invoke(new EventLog {
+        Source = "Электросеть насосной.Напряжение фазы A",
+        Message = errorMessage,
+        EventLogType = EventLogType.Внимание,
+        Brush = EventLog.GetBrush(EventLogType.Внимание),
+        DateTime = DateTime.Now
+      });
     }
 
     public void StartUpdate() {

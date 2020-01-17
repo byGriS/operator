@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.Windows.Controls;
 using System.Windows.Media;
 
@@ -18,6 +19,7 @@ namespace SPAControls {
     public int SPAFontSize { get; set; }
     public float Min { get; set; }
     public float Max { get; set; }
+    public bool NotMinuse { get; set; }
 
 
     private float value = 0;
@@ -25,8 +27,9 @@ namespace SPAControls {
     public float Value {
       get { return value; }
       set {
-        this.value = value;
-        OnPropertyChanged("Value");
+        this.value = (float)Math.Round(value, 1);
+        if (NotMinuse)
+        if (this.value < 0) this.value = 0;
         if (value < Min)
           ellipse.Fill = new SolidColorBrush(Colors.Red);
         else {
@@ -35,6 +38,7 @@ namespace SPAControls {
           else
             ellipse.Fill = new SolidColorBrush(Colors.LightGray);
         }
+        OnPropertyChanged("Value");
       }
     }
   }

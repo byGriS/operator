@@ -42,6 +42,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Modbus.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,6 +61,10 @@
     <Compile Include="Work.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ServiceWindows\ServiceWindows.csproj">
+      <Project>{c01d2a52-4970-4192-a818-22f822e35c86}</Project>
+      <Name>ServiceWindows</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Service\Service.csproj">
       <Project>{df38e4a4-a368-4055-9eb1-4fcefb7745c6}</Project>
       <Name>Service</Name>

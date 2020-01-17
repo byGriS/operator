@@ -62,11 +62,20 @@
     <Compile Include="FourState.xaml.cs">
       <DependentUpon>FourState.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GasField.xaml.cs">
+      <DependentUpon>GasField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GasLamp.xaml.cs">
+      <DependentUpon>GasLamp.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Level3.xaml.cs">
       <DependentUpon>Level3.xaml</DependentUpon>
     </Compile>
     <Compile Include="LevelV.xaml.cs">
       <DependentUpon>LevelV.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PistonPump.xaml.cs">
+      <DependentUpon>PistonPump.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -101,6 +110,12 @@
     <Compile Include="Valve.xaml.cs">
       <DependentUpon>Valve.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ValveEl.xaml.cs">
+      <DependentUpon>ValveEl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ValvesList.xaml.cs">
+      <DependentUpon>ValvesList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ValveV.xaml.cs">
       <DependentUpon>ValveV.xaml</DependentUpon>
     </Compile>
@@ -130,11 +145,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="GasField.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GasLamp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Level3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LevelV.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PistonPump.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,6 +201,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="ValveEl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ValvesList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ValveV.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -196,6 +231,12 @@
       <Project>{df38e4a4-a368-4055-9eb1-4fcefb7745c6}</Project>
       <Name>Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\gas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\valve.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

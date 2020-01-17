@@ -13,72 +13,74 @@
         Width="1366"
         Loaded="Window_Loaded"
         Closing="Window_Closing"
+        KeyUp="Window_KeyUp"
         >
-  <Window.Resources>
-    <Style TargetType="{x:Type DataGridRow}">
-      <Style.Setters>
-        <Setter Property="Background" Value="{Binding Path=Brush}"></Setter>
-      </Style.Setters>
-    </Style>
-    <ContextMenu  x:Key="RowMenu" DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
-      <MenuItem Header="Закрыть сообщение" Click="MenuItem_Click"/>
-    </ContextMenu>
-    <Style x:Key="DefaultRowStyle" TargetType="{x:Type DataGridRow}">
-      <Setter Property="ContextMenu" Value="{StaticResource RowMenu}" />
-      <Setter Property="Background" Value="{Binding Path=Brush}"></Setter>
-    </Style>
-  </Window.Resources>
-  <Grid Background="#e8e8e8">
-    <Grid.RowDefinitions>
-      <RowDefinition Height="50"/>
-      <RowDefinition Height="40"/>
-      <RowDefinition/>
-      <RowDefinition Height="200"/>
-    </Grid.RowDefinitions>
-    <Grid Background="#414141">
-      <Viewbox >
-        <Label Content="ПАО «Саратовнефтепродукт» Балашовская нефтебаза" 
+    <Window.Resources>
+        <Style TargetType="{x:Type DataGridRow}">
+            <Style.Setters>
+                <Setter Property="Background" Value="{Binding Path=Brush}"></Setter>
+            </Style.Setters>
+        </Style>
+        <ContextMenu  x:Key="RowMenu" DataContext="{Binding PlacementTarget.DataContext, RelativeSource={RelativeSource Self}}">
+            <MenuItem Header="Закрыть сообщение" Click="MenuItem_Click"/>
+        </ContextMenu>
+        <Style x:Key="DefaultRowStyle" TargetType="{x:Type DataGridRow}">
+            <Setter Property="ContextMenu" Value="{StaticResource RowMenu}" />
+            <Setter Property="Background" Value="{Binding Path=Brush}"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#e8e8e8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#414141">
+            <Viewbox >
+                <Label Content="ПАО «Саратовнефтепродукт» Балашовская нефтебаза" 
                FontWeight="Bold" 
                Foreground="#e8e8e8"/>
 
-      </Viewbox>
-    </Grid>
-    
-    <Border Grid.Row="1" BorderThickness="1" BorderBrush="Black">
-      <Grid Grid.Row="1">
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="btnMain" 
+            </Viewbox>
+        </Grid>
+
+        <Border Grid.Row="1" BorderThickness="1" BorderBrush="Black">
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnMain" 
                         Content="Главная" 
                         Margin="2" 
                         FontSize="16" 
                         Click="MenuBtn" 
                         Cursor="Hand" 
                         Background="#2b89c8">
-          <Button.Style>
-            <Style TargetType="{x:Type Button}">
-              <Setter Property="Background" Value="Green"/>
-              <Setter Property="Template">
-                <Setter.Value>
-                  <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" Cursor="Hand" BorderThickness="1">
-                      <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Border>
-                  </ControlTemplate>
-                </Setter.Value>
-              </Setter>
-            </Style>
-          </Button.Style>
-        </Button>
-        <Button x:Name="btnRP" 
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" Cursor="Hand" BorderThickness="1">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="btnRP" 
                         Grid.Column="1"
                         Content="Резервуарный парк" 
                         Margin="2" 
@@ -86,22 +88,22 @@
                         Click="MenuBtn" 
                         Cursor="Hand" 
                         Background="LightGray">
-          <Button.Style>
-            <Style TargetType="{x:Type Button}">
-              <Setter Property="Background" Value="Green"/>
-              <Setter Property="Template">
-                <Setter.Value>
-                  <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" Cursor="Hand" BorderThickness="1">
-                      <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Border>
-                  </ControlTemplate>
-                </Setter.Value>
-              </Setter>
-            </Style>
-          </Button.Style>
-        </Button>
-        <Button x:Name="btnPump" 
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" Cursor="Hand" BorderThickness="1">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="btnPump" 
                         Grid.Column="2" 
                         Content="Технолог. насосная" 
                         Margin="2" 
@@ -109,190 +111,229 @@
                         Click="MenuBtn" 
                         Cursor="Hand" 
                         Background="LightGray">
-          <Button.Style>
-            <Style TargetType="{x:Type Button}">
-              <Setter Property="Background" Value="Green"/>
-              <Setter Property="Template">
-                <Setter.Value>
-                  <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
-                      <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Border>
-                  </ControlTemplate>
-                </Setter.Value>
-              </Setter>
-            </Style>
-          </Button.Style>
-        </Button>
-        <Button x:Name="btnEvents" 
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="btnGas" 
                         Grid.Column="3" 
+                        Content="Загазованность" 
+                        Margin="2" 
+                        FontSize="16" 
+                        Click="MenuBtn" 
+                        Cursor="Hand" 
+                        Background="LightGray">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>                
+                <Button x:Name="btnValve" 
+                        Grid.Column="4" 
+                        Content="Задвижки" 
+                        Margin="2" 
+                        FontSize="16" 
+                        Click="MenuBtn" 
+                        Cursor="Hand" 
+                        Background="LightGray">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="btnEvents" 
+                        Grid.Column="5" 
                         Content="Журнал событий" 
                         Margin="2" FontSize="16"   
                         Click="MenuBtn" 
                         Background="LightGray" 
                         Cursor="Hand">
-          <Button.Style>
-            <Style TargetType="{x:Type Button}">
-              <Setter Property="Background" Value="Green"/>
-              <Setter Property="Template">
-                <Setter.Value>
-                  <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1" >
-                      <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Border>
-                  </ControlTemplate>
-                </Setter.Value>
-              </Setter>
-            </Style>
-          </Button.Style>
-        </Button>
-        <Button x:Name="btnSettings" 
-                        Grid.Column="4" 
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1" >
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="btnSettings" 
+                        Grid.Column="6" 
                         Content="Настройки" 
                         Margin="2" FontSize="16"   
                         Click="Setting_Click" 
                         Background="LightGray" 
                         Cursor="Hand">
-          <Button.Style>
-            <Style TargetType="{x:Type Button}">
-              <Setter Property="Background" Value="Green"/>
-              <Setter Property="Template">
-                <Setter.Value>
-                  <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1" >
-                      <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Border>
-                  </ControlTemplate>
-                </Setter.Value>
-              </Setter>
-            </Style>
-          </Button.Style>
-        </Button>
-        <Button Grid.Column="5" 
-                        Margin="2" 
-                        FontSize="16" 
-                        Content="Права доступа"  
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1" >
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button x:Name="btnConnection" 
+                        Grid.Column="7" 
+                        Content="Связь" 
+                        Margin="2" FontSize="16"   
+                        Click="Connection_Click" 
                         Background="LightGray" 
-                        Cursor="Hand"
-                        Click="MenuAccess_Click">
-          <Button.Style>
-            <Style TargetType="{x:Type Button}">
-              <Setter Property="Background" Value="Green"/>
-              <Setter Property="Template">
-                <Setter.Value>
-                  <ControlTemplate TargetType="{x:Type Button}">
-                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1" >
-                      <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </Border>
-                  </ControlTemplate>
-                </Setter.Value>
-              </Setter>
-            </Style>
-          </Button.Style>
-        </Button>
-        <Grid Grid.Column="6" 
-                      Background="#e8e8e8">
-          <TextBlock 
+                        Cursor="Hand">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1" >
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Grid Grid.Column="8" Background="#e8e8e8">
+                    <TextBlock 
                         x:Name="tbDemo" 
                         Text="Демо режим" 
                         FontSize="16" 
             FontWeight="Bold"
             Foreground="Red"
                         HorizontalAlignment="Center" 
-                        VerticalAlignment="Center"/>
-          <TextBlock 
-                        x:Name="tbUser" 
-                        Text="Оператор" 
-                        FontSize="16" 
-            Visibility="Collapsed"
-                        HorizontalAlignment="Center" 
-                        VerticalAlignment="Center"/>
-        </Grid>
-        <Grid Grid.Column="7" Background="#e8e8e8">
-          <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
-            <RowDefinition/>
-          </Grid.RowDefinitions>
-          <Viewbox>
-            <TextBlock x:Name="tbTime" Text="14:53:00" FontWeight="Bold"/>
-          </Viewbox>
-          <Viewbox Grid.Row="1">
-            <TextBlock x:Name="tbDate" Text="11 сентября 2019" FontWeight="Bold"/>
-          </Viewbox>
-        </Grid>
-      </Grid>
-    </Border>
+                        VerticalAlignment="Center" />
+                    <Viewbox>
+                        <TextBlock x:Name="tbTime" Text="14:53:00" FontWeight="Bold"/>
+                    </Viewbox>
+                </Grid>
+            </Grid>
+        </Border>
 
-    <Grid Grid.Row="2">
-      <Grid x:Name="gridMain" Visibility="Visible">
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="0">
-          <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
-            <RowDefinition/>
-          </Grid.RowDefinitions>
-          <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-          </Grid.ColumnDefinitions>
-          <spa:PumpMini x:Name="pumpMini1" Title="Насос №4"/>
-          <spa:PumpMini x:Name="pumpMini2" Grid.Column="1" Title="Насос №5"/>
-          <spa:PumpPower x:Name="pumpPowerMain" Grid.Row="1"/>
-          <spa:PumpAlarm x:Name="pumpAlarmMini" Grid.Column="1" Grid.Row="1"/>
-        </Grid>
-        <Grid Grid.Column="1">
-          <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
-            <RowDefinition/>
-          </Grid.RowDefinitions>
-          <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-          </Grid.ColumnDefinitions>
-          <spa:TanksMini x:Name="tanksMini"  Grid.ColumnSpan="3"/>
-          <spa:TanksAlarmMini x:Name="tankAlarmMini" Grid.Row="1" Grid.ColumnSpan="2"/>
-        </Grid>
-      </Grid>
-      
-      <Grid x:Name="gridRP" Visibility="Collapsed">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="3*"/>
-            <RowDefinition/>
-          </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <spa:Tanks x:Name="tanks" Grid.ColumnSpan="3"/>
-        <spa:TanksAlarm x:Name="tanksAlarm" Grid.Row="1" Grid.ColumnSpan="2"/>
-      </Grid>
+        <Grid Grid.Row="2">
+            <Grid x:Name="gridMain" Visibility="Visible">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <spa:PumpMini x:Name="pumpMini1" Title="Насос №3"/>
+                    <spa:PumpMini x:Name="pumpMini2" Grid.Column="1" Title="Насос №4"/>
+                    <spa:PumpPower x:Name="pumpPowerMain" Grid.Row="1"/>
+                    <spa:PumpAlarm x:Name="pumpAlarmMini" Grid.Column="1" Grid.Row="1"/>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <spa:TanksMini x:Name="tanksMini"  Grid.ColumnSpan="3"/>
+                    <spa:TanksAlarmMini x:Name="tankAlarmMini" Grid.Row="1" Grid.ColumnSpan="2"/>
+                </Grid>
+            </Grid>
 
-      <Grid x:Name="gridPump" Visibility="Collapsed">
-        <Grid.ColumnDefinitions>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-          <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-          <RowDefinition Height="4*"/>
-          <RowDefinition/>
-        </Grid.RowDefinitions>
-        <spa:Pump x:Name="pump1" Title="Насос №4" Grid.ColumnSpan="3"/>
-        <spa:Pump x:Name="pump2" Grid.Column="3" Title="Насос №5"  Grid.ColumnSpan="3"/>
-        <spa:PumpPower x:Name="pumpPower"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
-        <spa:PumpAlarm x:Name="pumpAlarm" Grid.Row="1" Grid.Column="3"  Grid.ColumnSpan="2"/>
-      </Grid>
+            <Grid x:Name="gridRP" Visibility="Collapsed">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <spa:Tanks x:Name="tanks" Grid.ColumnSpan="3"/>
+                <spa:TanksAlarm x:Name="tanksAlarm" Grid.Row="1" Grid.ColumnSpan="2"/>
+            </Grid>
 
-      <Grid x:Name="gridEvents" Visibility="Collapsed">
-        <DataGrid x:Name="eventLogs"
+            <Grid x:Name="gridPump" Visibility="Collapsed">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <spa:Pump x:Name="pump1" Title="Насос №3" Grid.ColumnSpan="3"/>
+                <spa:Pump x:Name="pump2" Grid.Column="3" Title="Насос №4"  Grid.ColumnSpan="3"/>
+                <spa:PumpPower x:Name="pumpPower"  Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"/>
+                <spa:PumpAlarm x:Name="pumpAlarm" Grid.Row="1" Grid.Column="3"  Grid.ColumnSpan="2"/>
+                <spa:PistonPump x:Name="pistonPump" Grid.Row="0" Grid.Column="6"/>
+            </Grid>
+
+            <Grid x:Name="gridGas" Visibility="Collapsed">
+                <spa:GasField x:Name="gasFiled"/>
+            </Grid>
+
+            <Grid x:Name="gridValve" Visibility="Collapsed">
+                <spa:ValvesList x:Name="valves"/>
+            </Grid>
+
+            <Grid x:Name="gridEvents" Visibility="Collapsed">
+                <DataGrid x:Name="eventLogs"
                   AutoGenerateColumns="False" 
                   CanUserDeleteRows="False"
                   CanUserAddRows="False"
@@ -301,42 +342,42 @@
                   RowHeaderWidth="20"
                   IsReadOnly="True"
                   CanUserSortColumns="False">
-          <DataGrid.Columns>
-            <DataGridTextColumn 
+                    <DataGrid.Columns>
+                        <DataGridTextColumn 
                             Header="Дата/время" 
                             Width="1*" 
                             Binding="{Binding Path=DateTime, StringFormat=\{0:dd.MM.yy HH:mm:ss\}}"/>
-            <DataGridTextColumn 
+                        <DataGridTextColumn 
                             Header="Тип" 
                             Width="1*" 
                             Binding="{Binding Path=EventLogType}"/>
-            <DataGridTextColumn 
+                        <DataGridTextColumn 
                             Header="Источник" 
                             Width="1*" 
                             Binding="{Binding Path=Source}"/>
-            <DataGridTextColumn 
+                        <DataGridTextColumn 
                             Header="Сообщение" 
                             Width="4*" 
                             Binding="{Binding Path=Message}"/>
-          </DataGrid.Columns>
-        </DataGrid>
-      </Grid>
-    </Grid>
-
-    <Grid Grid.Row="4">
-      <Grid.RowDefinitions>
-        <RowDefinition Height="32"/>
-        <RowDefinition/>
-      </Grid.RowDefinitions>
-      <Border BorderThickness="2" BorderBrush="#121212">
-        <Grid Background="#172657">
-          <Viewbox HorizontalAlignment="Left">
-            <Label Content="Уведомления" Foreground="#e8e8e8"/>
-          </Viewbox>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
         </Grid>
-      </Border>
-      <Border BorderThickness="2 0 2 2" BorderBrush="#121212" Grid.Row="1">
-        <DataGrid x:Name="eventLogsMini"
+
+        <Grid Grid.Row="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border BorderThickness="2" BorderBrush="#121212">
+                <Grid Background="#172657">
+                    <Viewbox HorizontalAlignment="Left">
+                        <Label Content="Уведомления" Foreground="#e8e8e8"/>
+                    </Viewbox>
+                </Grid>
+            </Border>
+            <Border BorderThickness="2 0 2 2" BorderBrush="#121212" Grid.Row="1">
+                <DataGrid x:Name="eventLogsMini"
                   AutoGenerateColumns="False" 
                   ItemsSource="{Binding ., IsAsync=True}"
                   CanUserDeleteRows="False"
@@ -348,26 +389,26 @@
                   CanUserSortColumns="False"
                   LostFocus="EventLogsMini_LostFocus"
                   RowStyle="{StaticResource DefaultRowStyle}">
-          <DataGrid.Columns>
-            <DataGridTextColumn 
+                    <DataGrid.Columns>
+                        <DataGridTextColumn 
                             Header="Дата/время" 
                             Width="1*" 
                             Binding="{Binding Path=DateTime, StringFormat=\{0:dd.MM.yy HH:mm:ss\}}"/>
-            <DataGridTextColumn 
+                        <DataGridTextColumn 
                             Header="Тип" 
                             Width="1*" 
                             Binding="{Binding Path=EventLogType}"/>
-            <DataGridTextColumn 
+                        <DataGridTextColumn 
                             Header="Источник" 
                             Width="1*" 
                             Binding="{Binding Path=Source}"/>
-            <DataGridTextColumn 
+                        <DataGridTextColumn 
                             Header="Сообщение" 
                             Width="4*" 
                             Binding="{Binding Path=Message}"/>
-          </DataGrid.Columns>
-        </DataGrid>
-      </Border>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Border>
+        </Grid>
     </Grid>
-  </Grid>
 </Window>

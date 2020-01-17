@@ -14,12 +14,13 @@
           <ColumnDefinition Width="0.8*"/>
           <ColumnDefinition Width="0.4*"/>
         </Grid.ColumnDefinitions>
-        <Label Content='{Binding Path=Title, FallbackValue="Параметр", Mode=TwoWay}' 
+        <TextBlock Text='{Binding Path=Title, FallbackValue="Параметр", Mode=TwoWay}' 
                        FontSize='{Binding Path=SPAFontSize}'
                        Foreground="#FF101010" 
-                       Padding="2" 
-                       HorizontalContentAlignment="Center"
-                       VerticalContentAlignment="Center"/>
+                       Padding="2"
+                       HorizontalAlignment="Left"
+                   TextWrapping="Wrap"
+                       VerticalAlignment="Center"/>
         <Label Content='{Binding Path=Value, FallbackValue="0,0"}' 
                        Grid.Column="1"
                        FontSize='{Binding Path=SPAFontSize}'
